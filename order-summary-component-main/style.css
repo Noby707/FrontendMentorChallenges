@@ -1,0 +1,60 @@
+/* Reason we do this is to prevent default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  text-align: center;
+
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 450px;
+  height: 600px;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article-container > p {
+  margin: 15px;
+}
+
+.subscribtion-container {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: space-between;
+  width: 300px;
+  padding: 10px;
+}
+
+.info-plan {
+  text-align: left;
+  background-color: ivory;
+  width: 250px;
+  padding: 10px;
+}
+
+.subscribtion-container > button {
+  /* margin-left: auto; */
+  border: none;
+  background-color: inherit;
+}

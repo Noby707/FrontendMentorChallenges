@@ -1,7 +1,9 @@
 # Frontend Mentor - Order summary card solution
 
 Time Track:
- - November 18th: 1 hour and 20 minutes
+
+- November 18th: 1 hour and 20 minutes
+- November 19th: 47 minutes
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 

@@ -27,6 +27,7 @@ body {
 
   border-radius: 20px;
   overflow: hidden;
+  padding-bottom: 10px;
 
   display: flex;
   flex-direction: column;
@@ -36,25 +37,64 @@ body {
 
 .article-container > p {
   margin: 15px;
+  margin-bottom: 0px;
+  color: hsl(224, 23%, 55%);
 }
 
 .subscribtion-container {
+  border-radius: 15px;
   background-color: hsl(225, 100%, 98%);
   display: flex;
-  align-items: space-between;
-  width: 300px;
-  padding: 10px;
+  width: 290px;
+  height: 60px;
+  padding: 20px;
+}
+
+.img-music-icon {
+  width: 50px;
+  padding: 5px;
 }
 
 .info-plan {
   text-align: left;
-  background-color: ivory;
-  width: 250px;
+  margin: 15px;
+  margin-top: -5px;
   padding: 10px;
 }
 
+.info-plan > p {
+  color: hsl(224, 23%, 55%);
+  margin-top: 5px;
+}
+
 .subscribtion-container > button {
-  /* margin-left: auto; */
+  margin-left: auto;
   border: none;
   background-color: inherit;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+}
+
+.payment-btn {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.payment-btn > button {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  width: 300px;
+  height: 40px;
+  border: none;
+  /* Add a shadow */
+}
+
+.cancel-btn {
+  margin-bottom: 35px;
+}
+
+.cancel-btn > button {
+  background-color: inherit;
+  border: none;
+  color: hsl(224, 23%, 55%);
 }

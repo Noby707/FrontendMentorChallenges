@@ -6,17 +6,45 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
 
   background-color: hsl(217, 54%, 11%);
+  font-family: "spicmen", sans-serif;
 }
 
 .card-container {
-  width: 400px;
+  /* Will dispaly flex and align items because items are not centered */
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+
+  width: 350px;
   height: 600px;
   background-color: hsl(216, 50%, 16%);
 
   border-radius: 12px;
 
-  color: white;
+  color: hsl(0, 0%, 100%);
+}
+
+.img-container {
+  width: 300px;
+  height: 320px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.nft-img {
+  width: 300px;
+  height: 320px;
+  border-radius: 4px;
+}
+
+.nft-info {
+  margin: -15px 20px;
+  padding: 0px 5px;
+}
+
+.p-info {
+  color: hsl(215, 51%, 70%);
 }

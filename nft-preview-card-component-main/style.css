@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card-container {
+  width: 400px;
+  height: 600px;
+  background-color: hsl(216, 50%, 16%);
+
+  border-radius: 12px;
+
+  color: white;
+}

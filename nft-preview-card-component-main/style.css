@@ -75,3 +75,12 @@ hr {
   width: 310px;
   border-color: hsl(215, 32%, 27%);
 }
+
+#currPrice,
+#currTime {
+  padding: 5px;
+}
+
+#currTime {
+  color: hsl(215, 51%, 70%);
+}

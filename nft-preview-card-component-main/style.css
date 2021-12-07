@@ -84,3 +84,16 @@ hr {
 #currTime {
   color: hsl(215, 51%, 70%);
 }
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profileImg {
+  width: 50px;
+  margin-right: 50px;
+  border: 1px solid white;
+  border-radius: 100px;
+}

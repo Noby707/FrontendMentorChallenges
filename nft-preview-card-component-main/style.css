@@ -43,6 +43,28 @@ body {
     height: auto;
 }
 
+
+
+.overlay{
+    width: 302px;
+    height: 302px;
+    background-color: hsl(178, 100%, 50%, 0.503);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 302px;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.icon-view { 
+    position: relative;
+}
+
 .title {
     color: hsl(0, 0%, 100%);
     width: 302px;
@@ -97,7 +119,7 @@ hr {
 .profile {
     margin-top: 16px;
     /* width: 230px; */
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 51%, 70%);
     align-self: flex-start;
     margin-left: 24px;
 
@@ -110,6 +132,8 @@ hr {
     width: 33px;
     height: 33px;
     margin-right: 16px;
+    border: 1px solid white;
+    border-radius: 100px;
 }
 
 #Jules-Wyvern {

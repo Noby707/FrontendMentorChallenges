@@ -1,4 +1,66 @@
 * {
     margin: 0;
     padding: 0;
+    
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-container {
+    width: 350px;
+    height: 596px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    width: 302px;
+    height: 302px;
+
+    border-radius: 15px;
+    overflow: hidden;
+
+    margin-top: 24px;
+}
+
+.display-img {
+    /* Fit to parent div */
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    width: 302px;
+
+    margin-top: 24px;
+}
+
+.txt-p {
+    color: hsl(215, 51%, 70%);
+    width: 302px;
+
+    margin-top: 24px;
+}
+
+.info-line {
+    width: 302px;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 24px
 }
